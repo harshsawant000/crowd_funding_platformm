@@ -12,16 +12,20 @@ const AboutUs = () => {
       <div className={styles.container}>
         <h1 className={styles.header}>CONTACT US</h1>
         <div className={styles.content}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
-          consequatur ea quia inventore excepturi officiis deserunt sequi, esse
-          nobis laudantium tempora aut, animi praesentium id! Necessitatibus
-          laborum vitae vero at!
+          Address :
+          Bal Kalyan Sanstha, Near Raj Bhavan, Ganesh Khind Road, Pune :411 007,
+
+          Maharashtra State (INDIA).
+
+          Tel : 020 2565 5953
+          WhatsApp: +91 93560 74071
+          Email : balkalyansanstha@gmail.com
           <br />
           <br />
           <div className={styles.map}>
             <iframe
               title="Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.376170291284!2d78.17195011486825!3d26.249452083417705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c6e5d32a4d53%3A0xf834069adc0c9b89!2sIndian%20Institute%20of%20Information%20Technology%20and%20Management%20Gwalior!5e0!3m2!1sen!2sin!4v1608394606599!5m2!1sen!2sin"
+              src="https://www.google.com/maps/place/Bal+Kalyan+Sanstha+Pune/@18.5485639,73.8233942,17z/data=!4m6!3m5!1s0x3bc2bf6a14fb9cdd:0x1ade623c48572725!8m2!3d18.5485639!4d73.8233942!16s%2Fg%2F1tcxbn8s?entry=ttu&g_ep=EgoyMDI1MDIxOS4xIKXMDSoASAFQAw%3D%3D"
               width="600"
               height="380"
               frameBorder="0"
@@ -41,16 +45,16 @@ const AboutUs = () => {
             <div className={`col-md-4 ${styles.details}`}>
               <h1 className={styles.inheader}>Our Office</h1>
               <p className={styles.incontent}>
-                <b>ROTARACT IIITM</b>
+                <b>Bal Kalyan Sanstha</b>
                 <br />
-                IIITM Campus,
+                Near Raj bhavan,
                 <br />
-                Morena Link Rd,
-                <br /> Gwalior, Madhya Pradesh 474015
+                Ganeshkhind Road,
+                <br /> Pune - 411007
                 <br /> <br />
-                For any queries, reach us out at email : rotaract@iiitm.ac.in
+                For any queries, reach us out at email : balkalyansanstha@gmail.com
                 <br />
-                +91-9876543210
+                +91-9356074071
               </p>
             </div>
           </div>
